@@ -1,6 +1,7 @@
 # AI-Law-Minicourse-HW
 ## Notes
 
+### Step 1
 
 Import all necessary packages from anaconda into the phyton kernel. 
 The software is crawling on the Supreme Court ruling opinion repository, so a user-header is necessary to avoid being flagged as unwanted bot.
@@ -28,7 +29,7 @@ All case details are added to the table.
 Saves the result in a pickle file.
 
 
-## Step 3
+### Step 3
 This step cleans the data from unnecessary or "harmful" words.
 
 For this reasons, it loads a lot of lists with common stopwords, statenames, names,....
@@ -43,7 +44,7 @@ But I'm not sure where that method is used and what the the second last line is 
 In the end, the results are saved in a pickle file.
 
 
-## Step 4
+### Step 4
 The method "modeler" runs a modell and then prints out the topwords with the methode "print_top_words" to show the results.
 It tests the methods LDA, NMF and LSA and adjusts some features within.
 NMF proofed to be the best fit for this task because it allows do differentiate different fields of law and not just "law" and "not law" like LSA.
