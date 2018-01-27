@@ -57,4 +57,4 @@ Third, the next step simply creates a dictonary to look up the top words for eac
 Fourth, this dictonary is used to look up these words in each item (=document)
 Last but not least, the data is visualisied. For that reason, a few changes are necessary (reduce the number of topics, add dummy numbers,...). Finally, the number of cases for each topic and year is used to creat an impressive graphic.
 
-####Fin!
+### Fin!
