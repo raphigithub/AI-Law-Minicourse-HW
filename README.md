@@ -51,10 +51,10 @@ NMF proofed to be the best fit for this task because it allows do differentiate 
 
 
 ### Step 5
-First, the model is run against the entire dataframe to get the different topics.
-Second, the results are then used to create a document-score for each topic. It a product of two matrices, not a probability. But nontehless, the highest number means that it is most likely in this category.
-Third, the next step simply creates a dictonary to look up the top words for each topics.
-Fourth, this dictonary is used to look up these words in each item (=document)
-Last but not least, the data is visualisied. For that reason, a few changes are necessary (reduce the number of topics, add dummy numbers,...). Finally, the number of cases for each topic and year is used to creat an impressive graphic.
+1. The model is run against the entire dataframe to get the different topics.
+2. The results are then used to create a document-score for each topic. It a product of two matrices, not a probability. But nontehless, the highest number means that it is most likely in this category.
+3. The next step simply creates a dictonary to look up the top words for each topics.
+4. This dictonary is used to look up these words in each item (=document)
+5. The data is visualisied. For that reason, a few changes are necessary (reduce the number of topics, add dummy numbers,...). Finally, the number of cases for each topic and year is used to creat an impressive graphic.
 
 ### Fin!
